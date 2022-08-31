@@ -10,8 +10,8 @@ const Profile = (props) => {
   return (
     <div className="profile-container">
       <Helmet>
-        <title>Profile - Soft UI Pro</title>
-        <meta property="og:title" content="Profile - Soft UI Pro" />
+        <title>Profile - Bladers</title>
+        <meta property="og:title" content="Profile - Bladers" />
       </Helmet>
       <div className="profile-profile">
         <img

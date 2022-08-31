@@ -38,7 +38,7 @@ const Header = (props) => {
       <div data-type="MobileMenu" className="header-mobile-menu">
         <div className="header-top">
           <Link to="/" className="header-navlink4 large">
-            Soft UI Design System
+          Bladers
           </Link>
           <div data-type="CloseMobileMenu" className="header-close-menu">
             <svg viewBox="0 0 1024 1024" className="header-icon4">

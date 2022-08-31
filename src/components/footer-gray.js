@@ -9,7 +9,7 @@ const FooterGray = (props) => {
       <div className="footer-gray-container">
         <div className="footer-gray-container1">
           <div className="footer-gray-container2">
-            <span className="footer-gray-text">Soft UI Design System</span>
+            <span className="footer-gray-text">Bladers</span>
             <span className="footer-gray-text01">Social</span>
             <div className="footer-gray-container3">
               <a
@@ -82,7 +82,7 @@ const FooterGray = (props) => {
         </div>
         <span className="footer-gray-text20 small">
           <span>
-            All rights reserved. Copyright © 2021 Soft UI Design System by
+            All rights reserved. Copyright © 2021 Bladers Design System by
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',

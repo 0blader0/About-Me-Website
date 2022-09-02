@@ -40,6 +40,7 @@ const Home = (props) => {
         <div className="home-container03">
           <h1 className="home-text01">From nothing to something</h1>
         </div>
+        <h1 className="home-text02">My projects</h1>
         <div className="home-blog">
           <div className="home-container04"></div>
           <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
@@ -71,8 +72,8 @@ const Home = (props) => {
           <div className="home-container07">
             <div className="home-container08">
               <div className="home-container09">
-                <h2 className="home-text02 headingOne">About Bladers</h2>
-                <p className="home-text03">
+                <h2 className="home-text03 headingOne">About Bladers</h2>
+                <p className="home-text04">
                   <span className="body">
                     In the past years I created a lot of Discord Bots, best one
                     is &quot;Bladers&quot;.

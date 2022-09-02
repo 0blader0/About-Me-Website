@@ -3,7 +3,7 @@
   display: flex;
   overflow: hidden;
   max-width: 1400px;
-  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  box-shadow: 5px 5px 10px 0px rgba(255, 0, 4, 0.41);
   transition: 0.3s;
   align-items: center;
   flex-direction: column;
@@ -16,6 +16,7 @@
   width: 626px;
   display: flex;
   padding: 32px;
+  box-shadow: 5px 5px 10px 0px #ff0004;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
@@ -27,6 +28,7 @@
   text-transform: uppercase;
 }
 .blog-post-card1-text1 {
+  color: #ff0007;
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 32px;
@@ -66,7 +68,7 @@
   margin-left: var(--dl-space-space-halfunit);
 }
 .blog-post-card1-link {
-  color: #4d3f9e;
+  color: #ff008d;
   font-weight: 300;
   text-decoration: none;
 }

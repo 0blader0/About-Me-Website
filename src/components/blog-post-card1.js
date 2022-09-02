@@ -14,9 +14,8 @@ const BlogPostCard1 = (props) => {
         <div className="blog-post-card1-container1">
           <div className="blog-post-card1-profile">
             <img
-              alt={props.profile_alt}
-              src={props.profile_src}
-              image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
+              src={props.image_src}
+              alt={props.image_alt}
               className="blog-post-card1-image"
             />
             <span className="blog-post-card1-text3">{props.author}</span>
@@ -36,25 +35,25 @@ const BlogPostCard1 = (props) => {
 }
 
 BlogPostCard1.defaultProps = {
-  profile_alt: 'profile',
   label: 'Bladers',
   title: 'About Me Website',
   rootClassName: '',
-  description: 'Simple modern portfolio website built in React',
-  profile_src: '21c38a0a-ba41-432e-8cc1-7d2104161ca6',
+  description: 'Simple modern portfolio website built with React',
   author: 'Blader',
   time: 'Link to repository on GitHub',
+  image_src: '/playground_assets/1662121144150-200w.png',
+  image_alt: 'image',
 }
 
 BlogPostCard1.propTypes = {
-  profile_alt: PropTypes.string,
   label: PropTypes.string,
   title: PropTypes.string,
   rootClassName: PropTypes.string,
   description: PropTypes.string,
-  profile_src: PropTypes.string,
   author: PropTypes.string,
   time: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default BlogPostCard1

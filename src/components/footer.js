@@ -1,19 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import PropTypes from 'prop-types'
 
 import './footer.css'
 
 const Footer = (props) => {
   return (
-    <footer className="footer-footer">
+    <footer className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-container">
         <div className="footer-container1">
           <span className="footer-text">Bladers</span>
-          <span>Copyright © 2022</span>
+          <span className="">Copyright © 2022</span>
         </div>
         <div className="footer-container2">
           <div className="footer-container3">
             <span className="footer-text2 large">Menu</span>
-            <span className="footer-text3 large">About Me</span>
+            <Link to="/" className="footer-navlink large">
+              Home
+            </Link>
+            <Link to="/profile" className="footer-navlink1 large">
+              About me
+            </Link>
           </div>
         </div>
       </div>
@@ -24,6 +32,14 @@ const Footer = (props) => {
       />
     </footer>
   )
+}
+
+Footer.defaultProps = {
+  rootClassName: '',
+}
+
+Footer.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default Footer

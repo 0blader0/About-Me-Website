@@ -10,7 +10,7 @@ const HeaderFull = (props) => {
       <nav className="header-full-nav">
         <div className="header-full-container">
           <Link to="/" className="header-full-navlink large">
-          Bladers
+            Soft UI Design System
           </Link>
           <div className="header-full-menu">
             <Link to="/" className="header-full-navlink1 large">

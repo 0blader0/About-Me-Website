@@ -6,7 +6,7 @@ import './primary-pink-button.css'
 
 const PrimaryPinkButton = (props) => {
   return (
-    <div className="primary-pink-button-container">
+    <div className={`primary-pink-button-container ${props.rootClassName} `}>
       <button className="primary-pink-button-button button buttonSmall">
         {props.button}
       </button>
@@ -15,10 +15,12 @@ const PrimaryPinkButton = (props) => {
 }
 
 PrimaryPinkButton.defaultProps = {
+  rootClassName: '',
   button: '',
 }
 
 PrimaryPinkButton.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
 }
 

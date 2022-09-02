@@ -10,8 +10,8 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route exact component={Profile} path="/profile" />
-        <Route exact component={Home} path="/" />
+        <Route component={Profile} exact path="/profile" />
+        <Route component={Home} exact path="/" />
       </div>
     </Router>
   )

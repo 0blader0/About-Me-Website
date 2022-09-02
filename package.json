@@ -1,6 +1,6 @@
 {
-  "name": "Bladers",
-  "version": "1.0.0",
+  "name": "bladers-personal",
+  "version": "1.3.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.3",

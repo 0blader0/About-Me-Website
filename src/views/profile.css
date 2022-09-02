@@ -52,6 +52,94 @@
   font-style: normal;
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.profile-text03 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text07 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text11 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text13 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text15 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text17 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text22 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text24 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text26 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text28 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile-text30 {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
 .profile-contact {
   width: 100%;
   max-width: 1320px;
@@ -95,7 +183,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.profile-text14 {
+.profile-text40 {
   opacity: 0.8;
 }
 .profile-container5 {

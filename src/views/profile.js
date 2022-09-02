@@ -30,15 +30,127 @@ const Profile = (props) => {
           </div>
           <span>
             <span className="medium">
-              Hi, I’m Dominik. I’m a web developer living in Czech Republic. I
-              am a fan of technology, design, and programming. I’m also
-              interested in web development and gaming.
+              Hi, my name is
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </span>
+            <span className="profile-text03 medium">Dominik</span>
+            <span className="medium">.</span>
+            <br className="medium"></br>
+            <span className="medium">
+              Currently living in
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text07 medium">Czech Republic</span>
+            <span className="medium">
+              .
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className="medium"></br>
+            <span className="medium">
+              I am a fan of
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text11 medium">technology</span>
+            <span className="medium">
+              ,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text13 medium">design</span>
+            <span className="medium">
+              , and
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text15 medium">programming</span>
+            <span className="medium">
+              , also interested in
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text17 medium">gaming</span>
+            <span className="medium">.</span>
             <br className="medium"></br>
             <br className="medium"></br>
             <span className="medium">
-              Over the years i learned programing languages like HTML, CSS, JS,
-              Py and many more...
+              Over the years i learned programing languages like
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text22 medium">HTML</span>
+            <span className="medium">
+              ,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text24 medium">CSS</span>
+            <span className="medium">
+              ,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text26 medium">JS</span>
+            <span className="medium">
+              ,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text28 medium">
+              Py
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="medium">
+              and many
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="profile-text30 medium">more</span>
+            <span className="medium">
+              ...
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -75,7 +187,7 @@ const Profile = (props) => {
                 </span>
                 <span>Information</span>
               </h3>
-              <span className="profile-text14">
+              <span className="profile-text40">
                 Reach me up if you want anything
               </span>
               <div className="profile-container5">

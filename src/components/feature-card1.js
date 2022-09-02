@@ -18,18 +18,18 @@ const FeatureCard1 = (props) => {
 }
 
 FeatureCard1.defaultProps = {
+  image_alt: 'image',
   image_src:
     'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&w=1000',
-  title: 'ghj',
   rootClassName: '',
-  image_alt: 'image',
+  title: 'ghj',
 }
 
 FeatureCard1.propTypes = {
-  image_src: PropTypes.string,
-  title: PropTypes.string,
-  rootClassName: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
+  rootClassName: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default FeatureCard1

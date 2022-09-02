@@ -14,8 +14,8 @@ const BlogPostCard1 = (props) => {
         <div className="blog-post-card1-container1">
           <div className="blog-post-card1-profile">
             <img
-              src={props.image_src}
               alt={props.image_alt}
+              src={props.image_src}
               className="blog-post-card1-image"
             />
             <span className="blog-post-card1-text3">{props.author}</span>
@@ -35,25 +35,25 @@ const BlogPostCard1 = (props) => {
 }
 
 BlogPostCard1.defaultProps = {
-  label: 'Bladers',
-  title: 'About Me Website',
-  rootClassName: '',
-  description: 'Simple modern portfolio website built with React',
-  author: 'Blader',
-  time: 'Link to repository on GitHub',
-  image_src: '/playground_assets/1662121144150-200w.png',
   image_alt: 'image',
+  author: 'Blader',
+  label: 'Bladers',
+  time: 'Link to repository on GitHub',
+  title: 'About Me Website',
+  description: 'Simple modern portfolio website built with React',
+  image_src: '/playground_assets/1662121144150-200w.png',
+  rootClassName: '',
 }
 
 BlogPostCard1.propTypes = {
-  label: PropTypes.string,
-  title: PropTypes.string,
-  rootClassName: PropTypes.string,
-  description: PropTypes.string,
-  author: PropTypes.string,
-  time: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  author: PropTypes.string,
+  label: PropTypes.string,
+  time: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image_src: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default BlogPostCard1

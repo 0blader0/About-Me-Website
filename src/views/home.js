@@ -25,22 +25,31 @@ const Home = (props) => {
           <div className="home-card">
             <h1 className="home-heading">Dominik Czech aka. Blader</h1>
             <h1 className="home-text">
-              Web Developer, Student, and Project Manager in Czech Republic
+              <span>
+                Web Developer and Project Manager in
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>Czech Republic</span>
             </h1>
           </div>
         </div>
       </div>
       <img
         alt="image"
-        src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxEZXZlbG9wbWVudCUyMGdhbWluZ3xlbnwwfHx8fDE2NjIxMjIyOTk&amp;ixlib=rb-1.2.1&amp;w=800"
+        src="/playground_assets/download%20%5B1%5D.svg"
         loading="eager"
         className="home-image"
       />
       <section className="home-container02">
         <div className="home-container03">
-          <h1 className="home-text01">From nothing to something</h1>
+          <h1 className="home-text04">From nothing to something</h1>
         </div>
-        <h1 className="home-text02">My projects</h1>
+        <h1 className="home-text05">My projects</h1>
         <div className="home-blog">
           <div className="home-container04"></div>
           <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
@@ -72,8 +81,8 @@ const Home = (props) => {
           <div className="home-container07">
             <div className="home-container08">
               <div className="home-container09">
-                <h2 className="home-text03 headingOne">About Bladers</h2>
-                <p className="home-text04">
+                <h2 className="home-text06 headingOne">About Bladers</h2>
+                <p className="home-text07">
                   <span className="body">
                     In the past years I created a lot of Discord Bots, best one
                     is &quot;Bladers&quot;.
